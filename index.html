@@ -15,7 +15,12 @@
       </div>
 
       <form action="#" onsubmit="yourJsFunction(); false">
-        <input type="text" id="qr-data" onchange="generateQR()" />
+        <input
+          type="text"
+          placeholder="Enter your text here..."
+          id="qr-data"
+          onchange="generateQR()"
+        />
         <input type="submit" value="Generate" />
       </form>
       <div id="qrcode"></div>
